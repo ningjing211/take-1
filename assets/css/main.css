@@ -20917,6 +20917,10 @@ START: Footer CSS
 }
 
 @media only screen and (max-width: 767px) {
+  .add-group,
+  .add-item {
+    display: flex;
+  }
   #smooth-content {
     padding: 0 30px;
   }
@@ -20980,7 +20984,7 @@ START: Footer CSS
     font-size: 10px;
   }
 }
-/* 
-#theme-toogle {
-  display: none;
-} */
+
+.additional {
+  margin: 60px 0 60px 0;
+}

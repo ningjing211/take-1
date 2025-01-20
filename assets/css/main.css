@@ -19000,6 +19000,7 @@ START: Footer CSS
 
 .copyright-content {
   align-items: center;
+  padding-left: 62px;
 }
 @media only screen and (max-width: 992px) {
   .copyright-content {
@@ -20965,5 +20966,14 @@ START: Footer CSS
   }
   .footer-widget .widget-header .widget-title {
     color: #7085ff;
+  }
+  .contact-widget {
+    margin-bottom: 20px;
+  }
+  .copyright-content {
+    padding-left: 0;
+  }
+  .copyright-content p {
+    font-size: 10px;
   }
 }

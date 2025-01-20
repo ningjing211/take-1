@@ -20946,6 +20946,9 @@ START: Footer CSS
     object-fit: contain;
     height: auto;
   }
+  .sponsor-wrap .sponsor-item img {
+    max-width: 200px;
+  }
   .footer-group  {
     display: flex;
     justify-content: center;

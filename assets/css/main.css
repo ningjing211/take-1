@@ -20989,6 +20989,15 @@ START: Footer CSS
   margin: 15px 0 60px 0;
 }
 
-.additional-item {
-  background-color: #21274a;
+.hero-section .hero-images img {
+  object-fit: contain;
+}
+
+.hero-content .hero-btn {
+  background-size: 30%;
+  background-color: #8252a9;
+}
+
+.fa-arrow-right:before {
+  font-weight: 400;
 }

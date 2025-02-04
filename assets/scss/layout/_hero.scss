@@ -80,7 +80,8 @@ START: Hero CSS
         padding-left: 0;
     }
     @include breakpoint(md){
-        padding: 100px 0 100px 40px;
+        // padding: 100px 0 100px 40px;
+        padding: 100px 0 10px 40px;
     }
     @include breakpoint(sm){
         padding-left: 0;

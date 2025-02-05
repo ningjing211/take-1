@@ -21,9 +21,9 @@ START: Template Default CSS
 ----------------------------------------*/
 @import url("https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
 :root {
-  --rr-ff-body: 'Plus Jakarta Sans', sans-serif;
-  --rr-ff-heading: 'Plus Jakarta Sans', serif;
-  --rr-ff-p: 'Plus Jakarta Sans', sans-serif;
+  --rr-ff-body: 'Plus Jakarta Sans', "Noto Sans TC", sans-serif;
+  --rr-ff-heading: 'Plus Jakarta Sans', "Noto Sans TC", serif;
+  --rr-ff-p: 'Plus Jakarta Sans', "Noto Sans TC", sans-serif;
   --rr-fw-normal: normal;
   --rr-fw-thin: 100;
   --rr-fw-elight: 200;

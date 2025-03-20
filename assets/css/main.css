@@ -3201,9 +3201,6 @@ START: Header CSS
   transition: all 0.3s ease-in-out;
   cursor: pointer;
 }
-.header .primary-header-inner .header-menu-wrap ul .menu-item-has-children:hover:after {
-  color: var(--rr-color-theme-primary);
-}
 .header .primary-header-inner .header-right-wrap {
   display: flex;
   align-items: center;
@@ -20616,7 +20613,7 @@ START: Footer CSS
   display: none;
 }
 [data-theme=light] .header-9 .primary-header-inner .header-right-wrap .header-right .sidebar-trigger {
-  border: 1px solid var(--rr-color-theme-primary);
+  border: 1px solid var(--rr-color-bg-1);
 }
 [data-theme=light] .about-container-9 .shape-2 {
   opacity: 0.05;

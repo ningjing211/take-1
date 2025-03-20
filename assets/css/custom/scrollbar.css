@@ -1,0 +1,65 @@
+/* 自定义滚动条样式 */
+
+/* 全局滚动条 */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+    background-color: #02050A;
+    display: block !important;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+::-webkit-scrollbar-track {
+    background-color: #02050A;
+    border-radius: 4px;
+}
+
+/* 确保滚动条显示 */
+html, body {
+    overflow: auto !important;
+    scrollbar-width: auto !important;
+    -ms-overflow-style: auto !important;
+    overflow-y: scroll !important;
+}
+
+/* 兼容Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(255, 255, 255, 0.3) #02050A;
+}
+
+/* 确保滚动效果 */
+body {
+    overscroll-behavior: auto;
+}
+
+/* 禁用任何隐藏滚动条的样式 */
+.swiper-wrapper,
+.swiper-container,
+.swiper-slide,
+.sidebar-area,
+.content-area,
+.scroll-container {
+    -ms-overflow-style: auto !important;
+    scrollbar-width: auto !important;
+}
+
+.swiper-wrapper::-webkit-scrollbar,
+.swiper-container::-webkit-scrollbar,
+.swiper-slide::-webkit-scrollbar,
+.sidebar-area::-webkit-scrollbar,
+.content-area::-webkit-scrollbar,
+.scroll-container::-webkit-scrollbar {
+    display: block !important;
+    width: 10px !important;
+    height: 10px !important;
+}
